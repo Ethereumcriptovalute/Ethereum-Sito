@@ -1,0 +1,105 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul b,
+nav .brand-logo {
+  font-family: 'Permanent Marker', cursive;
+  color: #2357;
+}
+
+/* Logo spostato di 40 pixel */
+nav .brand-logo {
+    padding: 0 40px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.nav-wrapper{
+  padding: 0 10px;
+}
+
+.button-collapse {
+  color: #040403;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+  .section-intro{
+    height: 100%;
+    width: 100%;
+  }
+
+  .header {
+    margin-top: 11%;
+  }
+
+  .header-subtitle {
+    margin-top: 15%;
+    font-size: 1.3em;
+  }
+
+@media only screen and (max-width : 999px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 650px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .nav-wrapper{
+  padding: 0 10px;
+}
+}
+
+  .col-servizio {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  }
+
+.section-registrazione{
+  height: 100%;
+  width: 100%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+
+footer.page-footer {
+  margin: 0;
+  background-color: #040403;
+}
